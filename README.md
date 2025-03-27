@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+📝 Gerenciador de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido como parte de um curso de React com TypeScript. A aplicação permite a criação, listagem e gerenciamento de tarefas, utilizando conceitos modernos do React.
 
-## Available Scripts
+🚀 Tecnologias Utilizadas
 
-In the project directory, you can run:
+React com TypeScript
 
-### `npm start`
+CSS Modules para evitar sobreposição de estilos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React Hooks (useState, useEffect)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Boas práticas como DRY (Don't Repeat Yourself) e SRP (Single Responsibility Principle)
 
-### `npm test`
+📌 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Adicionar novas tarefas
 
-### `npm run build`
+⏳ Definir tempo para cada tarefa
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📋 Listar e selecionar tarefas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✔️ Marcar tarefas como concluídas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📦 Como executar o projeto
 
-### `npm run eject`
+🛠️ Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Node.js (versão recomendada LTS)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Gerenciador de pacotes: npm ou yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🔧 Passos para execução
 
-## Learn More
+Clone este repositório:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Acesse a pasta do projeto:
+
+cd nome-do-repositorio
+
+Instale as dependências:
+
+npm install
+
+ou
+
+yarn install
+
+Execute o projeto:
+
+npm start
+
+ou
+
+yarn start
+
+📂 Estrutura do Projeto
+
+📦 nome-do-repositorio
+├── src
+│   ├── components
+│   │   ├── Formulario.tsx
+│   │   ├── Lista.tsx
+│   │   ├── Botao.tsx
+│   ├── pages
+│   │   ├── App.tsx
+│   ├── types
+│   │   ├── tarefa.ts
+│   ├── styles
+│   │   ├── Form.module.scss
+│   │   ├── Lista.module.scss
+│   ├── index.tsx
+│   ├── main.tsx
+├── public
+├── package.json
+└── README.md
+
+📖 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados diversos conceitos fundamentais do React:
+
+🏗️ Componentização para reutilização de código
+
+📩 Props e State para gerenciamento de dados
+
+⚡ Hooks (useState, useEffect) para controle de estados e efeitos colaterais
+
+🎨 CSS Modules para manter a estilização organizada e modularizada
+
+📜 Licença
+
+Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo como desejar. 😊
+
