@@ -36,7 +36,7 @@ Gerenciador de pacotes: npm ou yarn
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone [https://github.com/LucasVPereira/alura-studies]
 
 Acesse a pasta do projeto:
 
